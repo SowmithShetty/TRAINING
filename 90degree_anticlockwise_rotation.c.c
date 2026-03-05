@@ -18,10 +18,11 @@ int main(){
             }printf("\n");
         }
         printf("Matrix after 90 degree anticlockwise rotation :\n");
-        for(j=n-1;j>=0;j--){
+        for(j=n-1;j>=0;j--){ //To rotate matrix by 90 degree.
             for(i=0;i<m;i++){
                 printf("%d\t",a[i][j]);
             }printf("\n");
         }
         return 0;
+
 }
