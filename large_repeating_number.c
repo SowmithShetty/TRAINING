@@ -3,7 +3,7 @@ int main() {
     int n,i,arr[100],temp,count=0;
     printf("Enter the size of the array:");
     scanf("%d",&n);
-    printf("Array Elements:");
+    printf("The Entered Array Elements Are :");
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
@@ -16,7 +16,7 @@ int main() {
             }
         }
     }
-    printf("The sorted Array\n");
+    printf("The Sorted Array is :\n");
     for(i=0;i<n;i++){
         printf("%d",arr[i]);
     }
@@ -28,5 +28,6 @@ int main() {
         i--;
     }
     i=n-1;
-    printf("\nThe largest repating number is %d and repeated %d",arr[i],count);
+    printf("\nThe largest repeating number is %d and it is being repeated %d times..",arr[i],count);
+
 }
